@@ -1,0 +1,45 @@
+.pub-wrap{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-right: 20rpx;
+}
+.pub-text{
+  background-color: #07C160;
+  color: #fff;
+  width: 120rpx;
+  height: 60rpx;
+  border-radius: 10rpx;
+  text-align: center;
+  line-height: 60rpx;
+  font-size: 28rpx;
+}
+.input-wrap{
+  margin: 20rpx 40rpx;
+}
+.input-text{
+  height: 200rpx;
+  width: 100%;
+}
+
+.img-wrap{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 20rpx 30rpx;
+}
+.one-img{
+  position: relative;
+}
+.img-choose{
+  width: 210rpx;
+  height: 210rpx;
+  margin: 4rpx 8rpx;
+}
+.close-img{
+  width: 30rpx;
+  height: 30rpx;
+  position: absolute;
+  right: 4rpx;
+  top: 4rpx;
+}

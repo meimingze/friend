@@ -1,0 +1,21 @@
+<view class="pub-wrap">
+  <view class="pub-text" bindtap="submintData" bindtap="submitData">发表</view>
+</view>
+
+<view class="input-wrap">
+  <textarea placeholder="这一刻的想法..." class="input-text" maxlength="2000" bindinput="getValue"></textarea>
+</view>
+
+<view class="img-wrap">
+
+<block wx:for="{{cloudImgList}}" wx:key="index">
+  <view class="one-img">
+    <image src="{{item}}" class="img-choose"></image>
+    <image src="/api_pic/close.png" class="close-img" bindtap="deleteImg" data-index="{{index}}"></image>
+  </view>
+</block> 
+
+  <view class="one-img" bindtap="chooseImage" wx:if="{{cloudImgList.length < 9}}">
+    <image src="/api_pic/add.png" class="img-choose"  ></image>
+  </view>
+</view>

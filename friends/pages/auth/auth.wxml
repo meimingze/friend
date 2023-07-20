@@ -1,0 +1,8 @@
+
+
+
+<button open-type="getUserInfo" bindgetuserinfo="getInfo" >学生身份授权登录</button>
+<button open-type="getUserInfo" bindgetuserinfo="getInfo">家长身份授权登录</button>
+<button open-type="getUserInfo" bindgetuserinfo="toManage">班主任身份授权登录</button>
+
+<!-- <button bindtap="getInfo">授权登录</button> -->
